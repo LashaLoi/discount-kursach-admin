@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  color: #ec1c24;
+}
+
+.side {
+  width: 300px;
+}
+
+.white {
+  cursor: pointer;
+  transition: 0.1s all ease-in-out;
+  color: white;
+}
+
+.white:hover {
+  color: white;
+
+  transform: rotate(5deg);
+}
+
+.textarea-field {
+  margin: 10px;
+  padding: 5px;
+}
+
+.textarea-desc {
+  width: 500px;
+  margin: 7px 10px;
+}
+
+.update-modal {
+  display: flex;
+  width: 100%;
+}
+
+.update-field {
+  font-size: 1.1rem;
+  padding: 10px;
+  width: 100%;
+  margin: 20px;
+}
+
+.update-controlls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.update-controll {
+  height: 100px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+  flex-wrap: wrap;
+}
+
+.some {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.span {
+  color: #ec1c24;
+}
+
+.list-item-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.debounce-input {
+  padding: 10px;
+  outline: none;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #000;
+  height: 50px;
+  width: 100%;
+  transition: all ease-in-out 0.1s;
+}
+
+.debounce-input:focus {
+  border-color: #ec1c24;
+}
+
+input[type="file"] {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+
+input[type="file"]:before {
+  width: 100%;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  content: "Выберите фотографию ";
+  display: inline-block;
+  background: white;
+  padding: 0 10px;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.red {
+  color: #db2828;
+}
+
+.success {
+  text-align: center;
+  margin: 30px;
+  color: green;
+  font-size: 1.3rem;
+}
+
+.input-container {
+  margin: 20px 5px;
+  width: 55%;
+}
+
+.container-discount {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.btn-discount {
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.input-discount {
+  width: 90%;
+}
+
+.phone-label {
+  margin-top: 4px;
+  color: #000;
+  font-weight: bold;
+  width: 100%;
+}

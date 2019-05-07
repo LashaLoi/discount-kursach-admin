@@ -1,0 +1,63 @@
+{
+  "name": "benefits.admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-boost": "^0.1.22",
+    "apollo-link": "^1.2.8",
+    "apollo-link-context": "^1.0.12",
+    "apollo-link-ws": "^1.0.14",
+    "apollo-upload-client": "^10.0.0",
+    "apollo-utilities": "^1.1.2",
+    "browser-image-compression": "^1.0.0",
+    "dotenv": "^6.2.0",
+    "eslint": "5.6.0",
+    "eslint-config-react-app": "^3.0.3",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.11.1",
+    "google-geocoder": "^0.2.1",
+    "google-map-react": "^1.1.1",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0-alpha.2",
+    "react-apollo": "^2.3.2",
+    "react-apollo-hooks": "^0.4.0",
+    "react-debounce-input": "^3.2.0",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-input-mask": "^2.0.4",
+    "react-list-input": "^1.1.0",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "semantic-ui-react": "^0.84.0",
+    "styled-components": "^4.1.2",
+    "subscriptions-transport-ws": "^0.9.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {},
+  "main": "index.js",
+  "repository": "https://github.com/wldyslw/benefits.admin.git",
+  "homepage": "https://discounts.itechart-group.com/admin",
+  "author": "<Lashaloi1409@gmail.com>",
+  "license": "MIT"
+}
